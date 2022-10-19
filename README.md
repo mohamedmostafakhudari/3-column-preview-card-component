@@ -14,7 +14,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshot
 #### Desktop
-![image](https://user-images.githubusercontent.com/47444914/196732287-74fee0ea-107f-4ce6-a120-79ca32c2226b.png)
+![image](https://user-images.githubusercontent.com/47444914/196735011-a3ce2d7c-a07a-46de-b22c-1200bd35ecbf.png)
 
 #### Mobile
 ![image](https://user-images.githubusercontent.com/47444914/196732568-0b8b8890-97cb-4292-bef0-5bec036452ba.png)

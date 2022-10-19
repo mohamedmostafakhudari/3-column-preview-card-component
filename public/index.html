@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="text-[15px] font-lexend min-h-screen">
+  <main class="py-6 min-h-screen md:grid md:place-items-center">
+    <!-- flex container -->
+    <div class="container flex flex-col justify-center items-center mx-auto overflow-hidden md:flex-row">
+      <!-- card 1 -->
+      <div class="p-10 bg-primary-brightOrange space-y-8 rounded-t-lg md:rounded-none md:rounded-tl-lg md:rounded-bl-lg">
+        <!-- icon -->
+        <img src="./images/icon-sedans.svg" alt="sedans">
+        <!-- text -->
+        <div class="space-y-6">
+          <h1 class="uppercase font-bigShouldersDisplay text-4xl text-neutral-veryLightGray">sedans</h1>
+          <p class="text-neutral-transparentWhite max-w-[25ch]">Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+            or on your next road trip.</p>
+        </div>
+        <!-- button -->
+        <a href="#" class="bg-neutral-veryLightGray text-primary-brightOrange text-sm block w-fit p-3 px-6 rounded-full ease-in-out duration-300 border border-2 border-neutral-veryLightGray hover:bg-transparent hover:text-neutral-veryLightGray">Learn More</a>
+      </div>
+      <!-- card 2-->
+      <div class="p-10 bg-primary-darkCyan space-y-8">
+        <!-- icon -->
+        <img src="./images/icon-suvs.svg" alt="suvs">
+        <!-- text -->
+        <div class="space-y-6">
+          <h1 class="uppercase font-bigShouldersDisplay text-4xl text-neutral-veryLightGray">suvs</h1>
+          <p class="text-neutral-transparentWhite max-w-[25ch]">Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+            and off-road adventures.</p>
+        </div>
+        <!-- button -->
+        <a href="#" class="bg-neutral-veryLightGray text-primary-darkCyan text-sm block w-fit p-3 px-6 rounded-full ease-in-out duration-300 border border-2 border-neutral-veryLightGray hover:bg-transparent hover:text-neutral-veryLightGray">Learn More</a>
+      </div>
+      <!-- card 3-->
+      <div class="p-10 bg-primary-veryDarkCyan space-y-8 rounded-b-lg md:rounded-none md:rounded-tr-lg md:rounded-br-lg">
+        <!-- icon -->
+        <img src="./images/icon-luxury.svg" alt="luxury">
+        <!-- text -->
+        <div class="space-y-6">
+          <h1 class="uppercase font-bigShouldersDisplay text-4xl text-neutral-veryLightGray">luxury</h1>
+          <p class="text-neutral-transparentWhite max-w-[25ch]"> Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+            rental and arrive in style.</p>
+        </div>
+        <!-- button -->
+        <a href="#" class="bg-neutral-veryLightGray text-primary-veryDarkCyan text-sm block w-fit p-3 px-6 rounded-full ease-in-out duration-300 border border-2 border-neutral-veryLightGray hover:bg-transparent hover:text-neutral-veryLightGray">Learn More</a>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Mohamed Mostafa</a>.
+    </div>
+  </main>
+</body>
+</html>
